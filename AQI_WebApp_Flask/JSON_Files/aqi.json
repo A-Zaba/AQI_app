@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "data": {
+    "city": "The Crossings",
+    "state": "Florida",
+    "country": "USA",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -80.39972222,
+        25.68333333
+      ]
+    },
+    "current": {
+      "pollution": {
+        "ts": "2022-05-10T21:00:00.000Z",
+        "aqius": 35,
+        "mainus": "p2",
+        "aqicn": 12,
+        "maincn": "p2"
+      },
+      "weather": {
+        "ts": "2022-05-10T23:00:00.000Z",
+        "tp": 25,
+        "pr": 1015,
+        "hu": 58,
+        "ws": 6.69,
+        "wd": 60,
+        "ic": "03d"
+      }
+    }
+  }
+}

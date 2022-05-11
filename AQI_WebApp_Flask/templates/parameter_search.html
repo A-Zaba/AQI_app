@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br>
+    <form action="{{ url_for('search') }}" method="POST">
+    <!-- Get aqiparameter here -->
+    <label>Choose an {{ form.aqiparameter.label }} that you would like the local AQI information for:</label>
+                {{ form.aqiparameter }}<br>
+    <br><br>
+
+    <input type="submit" value="Search">
+    </form>
+</body>
+</html>
