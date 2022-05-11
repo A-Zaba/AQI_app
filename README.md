@@ -12,3 +12,8 @@ issuing the commands.
     - Options include coordinates of closest aqi monitoring station, local air pressure,
         temperature, humidity, and AQI, or air pollutant value.
 
+## To do
+
+- Improve front end on both index and result pages.
+- Reorganize code into separate files and classes.
+  - Add proper encapsulation.
